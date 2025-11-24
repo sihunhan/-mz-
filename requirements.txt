@@ -1,6 +1,6 @@
 streamlit
 opencv-python
-mediapipe
-streamlit-webrtc
 numpy
 av
+streamlit-webrtc
+mediapipe==0.10.9  # 👈 안정적인 버전으로 지정
