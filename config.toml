@@ -1,5 +1,0 @@
-[runner]
-magicEnabled = false
-# Streamlit Cloud에게 Python 3.10을 사용하도록 명시적으로 지시
-# 3.10은 MediaPipe와 OpenCV에 안정적인 환경을 제공합니다.
-python_version = "3.10"
