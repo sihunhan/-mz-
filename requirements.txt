@@ -1,6 +1,6 @@
 streamlit
-opencv-python==4.8.1.0
 numpy
-av
+opencv-python==4.8.1.0  # 호환성 검증된 안정 버전
+av                    # streamlit-webrtc의 필수 의존성
 streamlit-webrtc
-mediapipe==0.10.9
+mediapipe==0.10.9     # 설치 성공 확률이 높은 버전
