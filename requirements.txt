@@ -9,3 +9,4 @@ streamlit
 av
 streamlit-webrtc
 mediapipe==0.10.9
+
