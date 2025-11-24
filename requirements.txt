@@ -1,9 +1,11 @@
-# 필수 프레임워크 및 웹 통신
-streamlit
+# 의존성 해결을 위해 numpy와 OpenCV를 먼저 설치
 numpy
+opencv-python==4.8.1.0 
+
+# Streamlit 핵심 프레임워크
+streamlit
+
+# WebRTC 및 MediaPipe
 av
 streamlit-webrtc
-
-# AI 및 비전 라이브러리 (호환성 버전 명시)
-opencv-python==4.8.1.0  # 안정적인 OpenCV 버전
-mediapipe==0.10.9       # 설치 성공률 높은 MediaPipe 버전
+mediapipe==0.10.9
